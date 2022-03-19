@@ -5,7 +5,7 @@ print('loading function')
 def lambda_handler(event, context):
     #transactionName = event['queryStringParameters']['name']
 
-    transactionName = "testcommit4"
+    transactionName = "test commit 5"
     print('transactionName=' + transactionName)
 
     transactionResponse = {}
